@@ -25,6 +25,9 @@ input:focus, textarea:focus{
     box-shadow: none;
 }
 
+h2 i{
+    padding: 0.5rem;
+}
 
 /* ID Selector */
 
@@ -145,15 +148,16 @@ input:focus, textarea:focus{
     left: 39vw;
 }
 
-#portfolio{
+#projects{
     position: relative;
 }
 
 #comingsoon{
     position: absolute;
-    left: 17vw;
-    top: 20vh;
-    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
 }
 
 /* Class Selector */
