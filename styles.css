@@ -76,7 +76,7 @@ h2 i{
 }
 
 #exp-1, #exp-3, #edu-1, #edu-3{
-    direction: rtl;
+    text-align: right;
 }
 
 #exp-2, #edu-2{
@@ -222,10 +222,8 @@ h2 i{
     margin: 0px;
 }
 
-.exp-div ul, .edu-div ul{
-    direction: ltr;
-    text-align: left;
-    width: 400px;
+.exp-div p, .edu-div p{
+    text-align: justify;
 }
 
 .footer{
