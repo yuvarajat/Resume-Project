@@ -5,14 +5,14 @@ body{
 }
 
 header{
-    height: 70vh;
+    height: 65vh;
     margin-top: -20px;
     padding-top: 20px;
     color: white;
-    background-position: center 70%;
+    background-image: url(media/black-laptop-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(media/black-laptop-bg.jpg);
+    background-position: center 67%;
 }
 
 header #main-nav a{
@@ -145,11 +145,15 @@ input:focus, textarea:focus{
     left: 39vw;
 }
 
+#portfolio{
+    position: relative;
+}
+
 #comingsoon{
     position: absolute;
-    left: 27%;
-    top: 2200px;
-    width: 600px;
+    left: 17vw;
+    top: 20vh;
+    background-size: contain;
 }
 
 /* Class Selector */
