@@ -117,11 +117,17 @@ h2 i{
 
 @media only screen and (max-width: 768px) {
 
-#contact-div1, #contact-div2 {
-    display: block;
-    width: 100%;
-    text-align: justify;
-}
+    #contact-div1, #contact-div2 {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+    .form-elements{
+        width: 75vw;
+    }
+    #submit-button{
+        width: 20vw;
+    }
 }
 
 #contact-div2 a{
