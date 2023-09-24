@@ -113,23 +113,6 @@ h2 i{
     text-align: justify;
 }
 
-/* Media Query */
-
-@media only screen and (max-width: 768px) {
-
-    #contact-div1, #contact-div2 {
-        display: block;
-        width: 100%;
-        text-align: justify;
-    }
-    .form-elements{
-        width: 100%;
-    }
-    #submit-button{
-        padding: 5px;
-    }
-}
-
 #contact-div2 a{
     text-decoration: none;
     color: white;
@@ -278,4 +261,21 @@ h2 i{
     font-family: sans-serif;
     font-size: 18px;
     padding: 5px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+
+    #contact-div1, #contact-div2 {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+    .form-elements{
+        width: 100%;
+    }
+    #submit-button{
+        padding: 5px;
+    }
 }
