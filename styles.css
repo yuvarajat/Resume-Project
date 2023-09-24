@@ -126,7 +126,7 @@ h2 i{
         width: 75vw;
     }
     #submit-button{
-        width: 20vw;
+        padding: 5px;
     }
 }
 
