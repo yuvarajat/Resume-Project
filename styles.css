@@ -102,7 +102,7 @@ h2 i{
     font-size: 18px;
     text-align: center;
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 10vw;
     
 }
 
@@ -264,7 +264,7 @@ h2 i{
     color: white;
     font-size: 18px;
     display: block;
-    width: 425px;
+    width: 35vw;
 }
 
 ::placeholder{
