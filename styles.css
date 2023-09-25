@@ -297,6 +297,10 @@ input:focus, textarea:focus{
         visibility: hidden;
     }
 
+    #experience p{
+        font-family: sans-serif;
+    }
+
     .exp-div, .edu-div{
         width: 100%;
         text-align: left;
