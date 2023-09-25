@@ -119,28 +119,24 @@ h2 i{
 
 /* Vertical Line & A Plane */
 
-#experience hr{
-    transform: rotate(90deg);
-    border-style: dashed;
+.exp-edu-main-div{
     position: relative;
-    top: 240px;
-    width: 425px;
-    color: darkcyan;
 }
 
-#education hr{
-    transform: rotate(90deg);
-    border-style: dashed;
-    position: relative;
-    top: 110px;
-    width: 150px;
-    color: darkcyan;
-}
+.vl {
+    border-left: 2px dashed darkcyan;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+
+  }
 
 #exp-plane, #edu-plane{
     transform: rotate(90deg);
-    position: relative;
-    left: 39vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
 }
 
 /* Portfolio Section */
