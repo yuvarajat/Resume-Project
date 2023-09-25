@@ -6,7 +6,6 @@
     <title>Yuvaraja's Resume</title>
     <link rel="icon" type="image/jpg" href="media/Yuvaraja.jpg">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/3e726f6a51.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -141,10 +140,8 @@
                         <input type="text" id="name" name="name" required placeholder="Your Name" class="form-elements"><br>
                         <input type="email" id="email" name="email" required placeholder="Your Email" class="form-elements"><br>
                         <textarea name="message" id="message" cols="30" rows="5" required placeholder="Message" class="form-elements"></textarea><br>
-                        <button type="submit" id="submit-button" class="popup" onclick="myFunction()">
-                            SEND MESSAGE
-                            <span class="popuptext" id="myPopup">Thanks for contacting us, our team will reach you shortly.</span>
-                        </button>
+                        <input type="hidden" name="_next" value="thanks.html">
+                        <input type="submit" id="submit-button" value="SEND MESSAGE">
                     </form>
                 </div>
                 <div id="contact-div2">
