@@ -318,4 +318,8 @@ input:focus, textarea:focus{
         margin: 5px 8px;
     }
 
+    #submit-button{
+        display: block;
+        margin: 0px auto;
+    }
 }
