@@ -168,7 +168,7 @@ h2 i{
 }
 
 .exp-div:nth-child(2n)::after, .edu-div:nth-child(2n)::after {
-    left: -6.5%;
+    left: -6%;
 }
 
 
