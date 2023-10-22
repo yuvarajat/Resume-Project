@@ -123,14 +123,54 @@ h2 i{
     position: relative;
 }
 
-.vl {
+#vl {
     border-left: 2px dashed darkcyan;
-    height: 70%;
+    height: 60%;
     position: absolute;
+    top: 160px;
     left: 50%;
     margin-left: -3px;
-
   }
+
+  #vl1 {
+    border-left: 2px dashed darkcyan;
+    height: 50%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+
+#vl .tt, #vl1 .tt{
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+.exp-div::after, .edu-div::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.exp-div:nth-child(2n), .edu-div:nth-child(2n) {
+    left: 53%;
+}
+
+.exp-div:nth-child(2n+1)::after, .edu-div:nth-child(2n+1)::after {
+    right: 49.5%;
+}
+
+.exp-div:nth-child(2n)::after, .edu-div:nth-child(2n)::after {
+    left: -6.5%;
+}
+
 
 #exp-plane, #edu-plane{
     transform: rotate(90deg);
