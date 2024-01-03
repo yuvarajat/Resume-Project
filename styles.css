@@ -384,6 +384,10 @@ input:focus, textarea:focus{
         display: hidden;
         border: 0px solid;
     }
+
+    .exp-div::after, .edu-div::after {
+        visibility: hidden;
+    }
 }
 
 /* Thanks Page */
