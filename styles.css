@@ -379,8 +379,9 @@ input:focus, textarea:focus{
         padding: 0.75rem;
     }
 
-    .vl{
+    #vl, #vl1{
         visibility: hidden;
+        display: hidden;
     }
 }
 
