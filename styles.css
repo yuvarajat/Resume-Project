@@ -382,6 +382,7 @@ input:focus, textarea:focus{
     #vl, #vl1{
         visibility: hidden;
         display: hidden;
+        border: 0px solid;
     }
 }
 
