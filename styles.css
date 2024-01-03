@@ -331,6 +331,7 @@ input:focus, textarea:focus{
 
     #experience hr, #education hr, #exp-plane, #edu-plane{
         visibility: hidden;
+        display: none;
     }
 
     #experience p{
