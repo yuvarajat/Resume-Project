@@ -1,1 +1,3 @@
-
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.yuvaraja.in/$1 [R=301,L]
