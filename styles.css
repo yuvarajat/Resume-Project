@@ -104,7 +104,12 @@ h2 i{
     margin: 0px;
 }
 
-.exp-div h4, .edu-div h4{
+.exp-div h4{
+    color: #E00000;
+    margin: 0px;
+}
+
+.edu-div h4{
     color: #E00000;
     margin: 0px;
 }
