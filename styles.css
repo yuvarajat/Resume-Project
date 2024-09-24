@@ -75,12 +75,12 @@ h2 i{
     width: 150px;
     text-align: center;
     border-radius: 20px;
-    background-color: red;
+    background-color: #E00000;
     margin-left: 25px;
     margin-right: 25px;
     font-size: 16px;
     padding: 10px;
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Experience & Education Section */
