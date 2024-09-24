@@ -378,11 +378,12 @@ input:focus, textarea:focus{
         width: 75px;
         text-align: center;
         border-radius: 20px;
-        background-color: orangered;
+        background-color: #E00000;
         margin-left: 0.75rem;
         margin-right: 0.75rem;
         font-size: 1rem;
         padding: 0.75rem;
+        color: #FFFFFF;
     }
 
     #vl, #vl1{
